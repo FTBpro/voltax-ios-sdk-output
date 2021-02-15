@@ -1,0 +1,6 @@
+framework module VoltaxSDK {
+  umbrella header "VoltaxSDK.h"
+
+  export *
+  module * { export * }
+}
