@@ -25,6 +25,9 @@ Pod::Spec.new do |s|
   s.platform            = :ios, "10.3"
   s.source              = { :git => "https://github.com/FTBpro/voltax-ios-sdk-output", :tag => s.version }
   s.requires_arc        = true
+  # Exclude arm64 arch for simulators as we don't support Apple Silicon
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.preserve_paths      = "VoltaxSDK.framework"
   s.vendored_frameworks = "VoltaxSDK.framework"
   s.exclude_files       = ""
