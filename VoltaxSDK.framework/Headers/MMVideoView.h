@@ -10,8 +10,6 @@
 
 @protocol MMVideoViewDelegate <NSObject>
 
--(void) openUrl:(NSURL *_Nonnull)url;
-
 @optional
 -(void) mmVideoViewHeight:(CGFloat)height;
 
