@@ -20,7 +20,7 @@ jobs:
     - name: Update VoltaxSDK.podspec file with the new version
       run: |
         NEW_VERSION="${GITHUB_REF#"refs/tags/"}"
-        PREVIOUS_VERSION=`cat VoltaxSDK.podspec | grep "s.version" | cut -d "=" -f2 | cut -d \" -f2`
+        PREVIOUS_VERSION=`cat VoltaxSDK.podspec | grep "s.version" | head -1 | cut -d "=" -f2 | cut -d \" -f2`
         sed -ie "s/\([[:space:]]*s\.version[[:space:]]*= \"\)${PREVIOUS_VERSION}/\1$NEW_VERSION/" VoltaxSDK.podspec
         
     - name: Push changes of VoltaxSDK.podspec file
@@ -29,9 +29,9 @@ jobs:
         git config user.email "boris@minutemedia.com"
         
         git add VoltaxSDK.podspec
-        git commit -am "Bump version in VoltaxSDK.podspec"
+        git commit -m "Bump version in VoltaxSDK.podspec"
         
-        git push
+        git push -u origin HEAD:main
 
     - name: Publish to CocoaPod
       env:
