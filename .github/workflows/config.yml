@@ -33,8 +33,14 @@ jobs:
         
         git push -u origin HEAD:main
 
+    - name: Run pod spec lint
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+      run: |
+        pod spec lint VoltaxSDK.podspec --allow-warnings
+        
     - name: Publish to CocoaPod
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: |
-        pod trunk push VoltaxSDK.podspec
+        pod trunk push VoltaxSDK.podspec --allow-warnings
