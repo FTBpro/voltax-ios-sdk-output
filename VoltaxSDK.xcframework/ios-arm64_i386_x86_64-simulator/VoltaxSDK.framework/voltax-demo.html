@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <body>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            postMessageToSDK({action: "pageLoaded"})
+        });
+    
+        const postMessageToSDK = (message) => {
+            if ('MMWebView' in window) {
+              window['MMWebView'].postMessage(`${JSON.stringify(message)}`)
+            }
+        }
+    
+        const initPlayer = params => {
+            const { PlayerId, ContentId, articleUrl } = params
+            params["inApp"] = params["inApp"] == "true"
+            params["testMode"] = params["testMode"] == "true"
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = `https://vms-players.minutemediaservices.com/${PlayerId}.js`;
+            script.setAttribute("data-content-id", ContentId);
+            if (articleUrl) {
+                script.setAttribute("data-content-article-url", articleUrl);
+            }
+            script.onload = () => onPlayerScriptLoad(params)
+            window.document.body.appendChild(script);
+        }
+    
+        const onPlayerScriptLoad = params => {
+            const vplayers = voltax.getAllPlayersOnPage();
+            let vplayer = vplayers[0];
+            
+            if (!vplayer) {
+                return
+            }
+            
+            vplayer.setNativeParams(params)
+            
+            vplayer.on('ready', () => {
+                postHeight()
+            })
+        }
+    
+        const postHeight = () => {
+            setTimeout(() => {
+                const body = window.document.body
+                const html = window.document.documentElement
+
+                const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+                postMessageToSDK({height})
+            }, 200)
+        }
+    
+        const postBodyHeight = timeout => {
+            if (!timeout) {
+                timeout = 0
+            }
+            setTimeout(() => {
+                const body = window.document.body
+
+                const height = document.body.getBoundingClientRect().height + 32
+                postMessageToSDK({height})
+            }, timeout)
+        }
+    
+        const support16X9AspectRatio = () => {
+            window.document.body.insertAdjacentHTML("beforeend","<style>.monti-placeholder-mm-player {margin-top: -16px !important;}</style>")
+        }
+    
+        const pausePlayer = () => {
+            const vplayers = voltax.getAllPlayersOnPage();
+            let vplayer  = vplayers[0];
+            
+            if (vplayer) {
+                vplayer.pause()
+            }
+        }
+    </script>
+   </body>
+</html>
