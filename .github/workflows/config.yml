@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_12.4.app
+
+    - name: Xcode version
+      run: /usr/bin/xcodebuild -version
+      
+    - name: Update VoltaxSDK.podspec file with the new version
+      run: |
+        NEW_VERSION="${GITHUB_REF#"refs/tags/"}"
+        PREVIOUS_VERSION=`cat VoltaxSDK.podspec | grep "s.version" | cut -d "=" -f2 | cut -d \" -f2`
+        sed -ie "s/\([[:space:]]*s\.version[[:space:]]*= \"\)${PREVIOUS_VERSION}/\1$NEW_VERSION/" VoltaxSDK.podspec
+        
+    - name: Push changes of VoltaxSDK.podspec file
+      run: |
+        git config user.name "Boris Kalim"
+        git config user.email "boris@minutemedia.com"
+        
+        git add VoltaxSDK.podspec
+        git commit -am "Bump version in VoltaxSDK.podspec"
+        
+        git push
+
+    - name: Publish to CocoaPod
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+      run: |
+        pod trunk push VoltaxSDK.podspec
