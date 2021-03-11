@@ -17,6 +17,10 @@
             const { PlayerId, ContentId, articleUrl } = params
             params["inApp"] = params["inApp"] == "true"
             params["testMode"] = params["testMode"] == "true"
+            
+            window.nativeParams = params
+            
+            
             var script = document.createElement("script");
             script.type = "text/javascript";
             script.src = `https://vms-players.minutemediaservices.com/${PlayerId}.js`;
