@@ -13,6 +13,9 @@
 @optional
 -(void) mmVideoViewHeight:(CGFloat)height;
 
+@optional
+-(void) clickOnUrl:(NSURL *)url;
+
 @end
 
 @interface MMVideoView : NSObject
