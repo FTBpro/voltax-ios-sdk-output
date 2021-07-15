@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name                = "VoltaxSDK"
-  s.version             = "1.0.8"
+  s.version             = "1.1.0"
   s.summary             = "VoltaxSDK iOS SDK for app developers"
   s.description         = "VoltaxSDK iOS SDK for app developers"
   s.homepage            = "https://www.minutemedia.com"
