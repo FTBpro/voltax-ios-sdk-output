@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <VoltaxSDK/VoltaxSDK.h>
+#import <VoltaxSDK/MMIMAAdsProvider.h>
 
 @protocol MMVideoViewDelegate <NSObject>
 
@@ -23,6 +24,8 @@
 @property (nonatomic, assign) NSString * _Nullable articleUrl;
 
 @property (nonatomic, weak) id<MMVideoViewDelegate> _Nullable delegate;
+
+@property (nonatomic, weak) id<MMIMAAdsProvider> _Nullable adsProvider;
 
 - (id _Nonnull )initWithPlayerId:(NSString * _Nonnull)playerId
                    contentId:(NSString * _Nonnull)contentId

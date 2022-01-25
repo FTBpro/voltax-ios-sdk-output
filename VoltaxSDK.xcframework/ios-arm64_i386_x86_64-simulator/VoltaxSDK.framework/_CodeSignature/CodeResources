@@ -4,21 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/MMIMAAdsProvider.h</key>
+		<data>
+		X3HEx9CAUBSqNVa15rm04AkGU2Y=
+		</data>
 		<key>Headers/MMSdkManager.h</key>
 		<data>
 		UoJYL5xcn1LaVWnramApPJqaCiY=
 		</data>
 		<key>Headers/MMVideoView.h</key>
 		<data>
-		Us4RsADWPY6ovDIQueq6hoZx/Fg=
+		2ot/rFnC0bQ8xzuhwFWKWs/OzLA=
 		</data>
 		<key>Headers/VoltaxSDK.h</key>
 		<data>
-		7pDt517I24ftL5myFTjUNfH/FpU=
+		uM/FbMCICIoJZagPpbhrzfQEWGE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0vYFBrDD8JGM6tNQ8nc2Bsyu0w0=
+		t2bX5dPo2B+BEjHP4mOceP9Fuhs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,11 +30,22 @@
 		</data>
 		<key>voltax-demo.html</key>
 		<data>
-		0Z5oVZPoy2sD67DF3H3oW9hQ0DY=
+		tm+AJIpgZHux38yipPGTDFcdp+s=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/MMIMAAdsProvider.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X3HEx9CAUBSqNVa15rm04AkGU2Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			IF9NyyDCCtIvsHPxxhUdVe8WtqUFX+9uiv58XLEvbg0=
+			</data>
+		</dict>
 		<key>Headers/MMSdkManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -46,22 +61,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Us4RsADWPY6ovDIQueq6hoZx/Fg=
+			2ot/rFnC0bQ8xzuhwFWKWs/OzLA=
 			</data>
 			<key>hash2</key>
 			<data>
-			GHI1Kdoufnpml8yRkFqhbg/8X2qPx/Cx1opz6X3HMOc=
+			q4z9LWRoOK9uQuXN6ZLd0OPyjd+XX8SPJp7df+i3uvo=
 			</data>
 		</dict>
 		<key>Headers/VoltaxSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7pDt517I24ftL5myFTjUNfH/FpU=
+			uM/FbMCICIoJZagPpbhrzfQEWGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			cALZqGdVlpP7eEgqVHvn58Tof96qpWdzNj2WgfuoKA0=
+			JU92njrPjonrZY/RD84xzc90Wame+6Dqir6AWopUaFI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -79,11 +94,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Z5oVZPoy2sD67DF3H3oW9hQ0DY=
+			tm+AJIpgZHux38yipPGTDFcdp+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			CaIl+k5fr1Jszs55jvBTsCHgNL1SRvQrkTv972dZtWc=
+			PhHI1WnNI1n4Do56rFxMIQ/7oP87d35VmwmjzKDBSrI=
 			</data>
 		</dict>
 	</dict>

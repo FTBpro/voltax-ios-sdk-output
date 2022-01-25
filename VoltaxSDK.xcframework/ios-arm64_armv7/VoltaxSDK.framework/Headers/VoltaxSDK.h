@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char VoltaxSDKVersionString[];
 
 #import <VoltaxSDK/MMVideoView.h>
 #import <VoltaxSDK/MMSdkManager.h>
+#import <VoltaxSDK/MMIMAAdsProvider.h>

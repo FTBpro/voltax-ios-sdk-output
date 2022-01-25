@@ -45,6 +45,10 @@
             vplayer.on('ready', () => {
                 postHeight()
             })
+            
+            vplayer.on('adOpportunity', (params) => {
+                onAdOpportunity(params)
+            })
         }
     
         const postHeight = () => {
@@ -72,14 +76,33 @@
         const support16X9AspectRatio = () => {
             window.document.body.insertAdjacentHTML("beforeend","<style>.monti-placeholder-mm-player {margin-top: -16px !important;}</style>")
         }
+        
+        const getCurrentPlayer = () => {
+            const vplayers = voltax.getAllPlayersOnPage();
+            return vplayers[0];
+        }
     
         const pausePlayer = () => {
-            const vplayers = voltax.getAllPlayersOnPage();
-            let vplayer  = vplayers[0];
+            let vplayer = getCurrentPlayer()
             
             if (vplayer) {
                 vplayer.pause()
             }
+        }
+        
+        const playPlayer = () => {
+            let vplayer = getCurrentPlayer()
+            
+            if (vplayer) {
+                vplayer.play()
+            }
+        }
+        
+        const onAdOpportunity = (params) => {
+            postMessageToSDK({
+                action: "onAdOpportunity",
+                tag: params.tag
+            })
         }
     </script>
    </body>
