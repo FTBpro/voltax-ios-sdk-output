@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
   #
 
   s.name                = "VoltaxSDK"
-  s.version             = "1.2.0"
+  s.version             = "1.2.1"
   s.summary             = "VoltaxSDK iOS SDK for app developers"
   s.description         = "VoltaxSDK iOS SDK for app developers"
   s.homepage            = "https://www.minutemedia.com"
   s.license             = { :type => 'Proprietary', :text => 'Copyright 2021 Minute Media. All rights reserved.' }
   s.author              = { "Boris Kalim" => "boris@minutemedia.com" }
   s.platform            = :ios, "10.3"
-  s.source              = { :git => "https://github.com/FTBpro/voltax-ios-sdk-output", :tag => '1.2.0-ima-test' }
+  s.source              = { :git => "https://github.com/FTBpro/voltax-ios-sdk-output", :tag => '1.2.1-ima-test' }
   s.requires_arc        = true
   s.preserve_paths      = "VoltaxSDK.xcframework"
   s.vendored_frameworks = "VoltaxSDK.xcframework"

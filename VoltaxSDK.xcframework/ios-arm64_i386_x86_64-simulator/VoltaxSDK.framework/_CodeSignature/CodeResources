@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		bQ7TCtojq5njfTbq+D9v+F9Dws0=
+		</data>
 		<key>Headers/MMIMAAdsProvider.h</key>
 		<data>
-		X3HEx9CAUBSqNVa15rm04AkGU2Y=
+		9HGQ3JmRxMHwPuPezTMMcTCIAvE=
 		</data>
 		<key>Headers/MMSdkManager.h</key>
 		<data>
@@ -30,20 +34,31 @@
 		</data>
 		<key>voltax-demo.html</key>
 		<data>
-		tm+AJIpgZHux38yipPGTDFcdp+s=
+		52pLqUyF9tLUHS1UBeTW3aBeE0I=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bQ7TCtojq5njfTbq+D9v+F9Dws0=
+			</data>
+			<key>hash2</key>
+			<data>
+			7QutGvYkoBLHj56rIXGnJk8Y9OtqAOFTuQLmc2c86iM=
+			</data>
+		</dict>
 		<key>Headers/MMIMAAdsProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X3HEx9CAUBSqNVa15rm04AkGU2Y=
+			9HGQ3JmRxMHwPuPezTMMcTCIAvE=
 			</data>
 			<key>hash2</key>
 			<data>
-			IF9NyyDCCtIvsHPxxhUdVe8WtqUFX+9uiv58XLEvbg0=
+			bnBy+nGPOxlziwytBq+tJYxhbm1D8k71husDa+7+GXc=
 			</data>
 		</dict>
 		<key>Headers/MMSdkManager.h</key>
@@ -94,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tm+AJIpgZHux38yipPGTDFcdp+s=
+			52pLqUyF9tLUHS1UBeTW3aBeE0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			PhHI1WnNI1n4Do56rFxMIQ/7oP87d35VmwmjzKDBSrI=
+			A8jUw4xT48XJ1CD9dsL05HikjeHQBNkC9AUOEv3XAik=
 			</data>
 		</dict>
 	</dict>

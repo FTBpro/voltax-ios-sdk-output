@@ -47,7 +47,8 @@
             })
             
             vplayer.on('adOpportunity', (params) => {
-                onAdOpportunity(params)
+                const isMuted = vplayer.getMute()
+                onAdOpportunity(params, isMuted)
             })
         }
     
@@ -98,10 +99,19 @@
             }
         }
         
-        const onAdOpportunity = (params) => {
+        const exitFullscreen = () => {
+            let vplayer = getCurrentPlayer()
+            
+            if (vplayer) {
+                vplayer.exitFullscreen()
+            }
+        }
+        
+        const onAdOpportunity = (params, isMuted) => {
             postMessageToSDK({
                 action: "onAdOpportunity",
-                tag: params.tag
+                tag: params.tag,
+                isMuted
             })
         }
     </script>

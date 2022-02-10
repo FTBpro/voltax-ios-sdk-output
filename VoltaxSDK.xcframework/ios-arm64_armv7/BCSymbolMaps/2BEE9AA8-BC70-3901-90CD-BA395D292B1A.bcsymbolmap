@@ -6,14 +6,14 @@ iPhoneOS15.0.sdk
 /Users/alonshprung/Work/MinuteMedia/MM-Voltax-iOS-SDK/SDK-sources
 +[MMSdkManager sharedInstance]
 ___30+[MMSdkManager sharedInstance]_block_invoke
-___copy_helper_block_e4_
-___destroy_helper_block_e4_
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
 -[MMSdkManager testMode]
 -[MMSdkManager setTestMode:]
 _sharedInstance.sharedInstance
 _sharedInstance.onceToken
 _OBJC_SELECTOR_REFERENCES_
-___block_descriptor_24_e4__e5_v4?0l
+___block_descriptor_40_e8__e5_v8?0l
 __OBJC_$_CLASS_METHODS_MMSdkManager
 __OBJC_METACLASS_RO_$_MMSdkManager
 __OBJC_$_INSTANCE_METHODS_MMSdkManager
@@ -23,8 +23,8 @@ __OBJC_$_PROP_LIST_MMSdkManager
 __OBJC_CLASS_RO_$_MMSdkManager
 /Users/alonshprung/Work/MinuteMedia/MM-Voltax-iOS-SDK/SDK-sources/VoltaxSDK/MMSdkManager/MMSdkManager.m
 VoltaxSDK/MMSdkManager/MMSdkManager.h
-__destroy_helper_block_e4_
-__copy_helper_block_e4_
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
 __30+[MMSdkManager sharedInstance]_block_invoke
 VoltaxSDK/MMSdkManager/MMSdkManager.m
 /Applications/Xcode13.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/dispatch/once.h
@@ -57,24 +57,26 @@ VoltaxSDK/AppleAdId/MMAppleAdIdUtil.m
 -[MMVideoView getVideoParamsString]
 -[MMVideoView viewWillTransition:]
 ___34-[MMVideoView viewWillTransition:]_block_invoke
-___copy_helper_block_e4_20s
-___destroy_helper_block_e4_20s
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
 -[MMVideoView willDisplay]
 -[MMVideoView presentSFSafariViewController:]
 ___45-[MMVideoView presentSFSafariViewController:]_block_invoke
 -[MMVideoView webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:]
 ___89-[MMVideoView webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:]_block_invoke
-___copy_helper_block_e4_20s24s
-___destroy_helper_block_e4_20s24s
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
 -[MMVideoView pageIsLoaded]
 -[MMVideoView newHeight:]
--[MMVideoView onAdOpportunity:]
+-[MMVideoView onAdOpportunity:isMuted:]
 -[MMVideoView adsLoaderDidRecieveError:]
 -[MMVideoView adsManagerDidRecieveError:]
 -[MMVideoView adsManagerDidRequestContentPause]
-___47-[MMVideoView adsManagerDidRequestContentPause]_block_invoke
 -[MMVideoView adsManagerDidRequestContentResume]
-___48-[MMVideoView adsManagerDidRequestContentResume]_block_invoke
+-[MMVideoView adsManagerDidRecieveEvent:]
+-[MMVideoView handleSoundView:]
+-[MMVideoView soundButtonTapped:]
+-[MMVideoView updateSoundImageView:]
 -[MMVideoView articleUrl]
 -[MMVideoView setArticleUrl:]
 -[MMVideoView delegate]
@@ -89,6 +91,8 @@ ___48-[MMVideoView adsManagerDidRequestContentResume]_block_invoke
 -[MMVideoView setPlayerId:]
 -[MMVideoView contentId]
 -[MMVideoView setContentId:]
+-[MMVideoView adShouldStartMuted]
+-[MMVideoView setAdShouldStartMuted:]
 -[MMVideoView .cxx_destruct]
 _OBJC_SELECTOR_REFERENCES_.2
 _OBJC_SELECTOR_REFERENCES_.4
@@ -136,14 +140,14 @@ _OBJC_CLASSLIST_REFERENCES_$_.98
 _OBJC_SELECTOR_REFERENCES_.100
 _OBJC_SELECTOR_REFERENCES_.104
 _OBJC_SELECTOR_REFERENCES_.108
-___block_descriptor_24_e4_20s_e5_v4?0l
+___block_descriptor_40_e8_32s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.110
 _OBJC_SELECTOR_REFERENCES_.112
 _OBJC_CLASSLIST_REFERENCES_$_.113
 _OBJC_SELECTOR_REFERENCES_.115
 _OBJC_SELECTOR_REFERENCES_.117
 _OBJC_SELECTOR_REFERENCES_.119
-___block_descriptor_20_e5_v4?0l
+___block_descriptor_32_e5_v8?0l
 ___block_literal_global
 _OBJC_SELECTOR_REFERENCES_.121
 _OBJC_SELECTOR_REFERENCES_.123
@@ -152,19 +156,41 @@ _OBJC_SELECTOR_REFERENCES_.127
 _OBJC_SELECTOR_REFERENCES_.129
 _OBJC_SELECTOR_REFERENCES_.131
 _OBJC_SELECTOR_REFERENCES_.135
-___block_descriptor_28_e4_20s24s_e19_v12?04"NSError"8l
+___block_descriptor_48_e8_32s40s_e20_v24?08"NSError"16l
 _OBJC_SELECTOR_REFERENCES_.138
 _OBJC_SELECTOR_REFERENCES_.142
 _OBJC_SELECTOR_REFERENCES_.146
-_OBJC_CLASSLIST_REFERENCES_$_.147
-_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_CLASSLIST_REFERENCES_$_.149
 _OBJC_SELECTOR_REFERENCES_.151
 _OBJC_SELECTOR_REFERENCES_.153
-_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.155
 _OBJC_SELECTOR_REFERENCES_.159
-___block_descriptor_20_e19_v12?04"NSError"8l
-___block_literal_global.164
-___block_literal_global.167
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_CLASSLIST_REFERENCES_$_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_CLASSLIST_REFERENCES_$_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_CLASSLIST_REFERENCES_$_.210
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.218
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
 __OBJC_$_PROP_LIST_NSObject
@@ -194,6 +220,7 @@ __OBJC_LABEL_PROTOCOL_$_MMIMAAdsProviderDelegate
 __OBJC_CLASS_PROTOCOLS_$_MMVideoView
 __OBJC_METACLASS_RO_$_MMVideoView
 __OBJC_$_INSTANCE_METHODS_MMVideoView
+_OBJC_IVAR_$_MMVideoView._adShouldStartMuted
 _OBJC_IVAR_$_MMVideoView._articleUrl
 _OBJC_IVAR_$_MMVideoView._delegate
 _OBJC_IVAR_$_MMVideoView._adsProvider
@@ -207,14 +234,12 @@ __OBJC_CLASS_RO_$_MMVideoView
 /Users/alonshprung/Work/MinuteMedia/MM-Voltax-iOS-SDK/SDK-sources/VoltaxSDK/MMVideoView/MMVideoView.m
 VoltaxSDK/MMVideoView/MMVideoView.m
 VoltaxSDK/MMVideoView/MMVideoView.h
-__48-[MMVideoView adsManagerDidRequestContentResume]_block_invoke
-__47-[MMVideoView adsManagerDidRequestContentPause]_block_invoke
-__destroy_helper_block_e4_20s24s
-__copy_helper_block_e4_20s24s
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
 __89-[MMVideoView webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:]_block_invoke
 __45-[MMVideoView presentSFSafariViewController:]_block_invoke
-__destroy_helper_block_e4_20s
-__copy_helper_block_e4_20s
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
 __34-[MMVideoView viewWillTransition:]_block_invoke
 +[MMUtils getAppName]
 +[MMUtils getAppBundleIdentifier]
