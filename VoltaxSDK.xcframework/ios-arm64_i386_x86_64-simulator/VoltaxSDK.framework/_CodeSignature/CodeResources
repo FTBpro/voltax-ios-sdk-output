@@ -4,21 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		Lss3pZ+KylxumhqST19cL5OYKUw=
+		</data>
+		<key>Headers/MMIMAAd.h</key>
+		<data>
+		cIg3pGrHVmRr8uPyvz+e9ICxEZ8=
+		</data>
+		<key>Headers/MMIMAAdsProvider.h</key>
+		<data>
+		5X3FnfpGpBZUOtKN3sh4FTnFEh4=
+		</data>
 		<key>Headers/MMSdkManager.h</key>
 		<data>
 		UoJYL5xcn1LaVWnramApPJqaCiY=
 		</data>
 		<key>Headers/MMVideoView.h</key>
 		<data>
-		Us4RsADWPY6ovDIQueq6hoZx/Fg=
+		kfdACMbrYxbmVYuWPnkSjM8qSWM=
 		</data>
 		<key>Headers/VoltaxSDK.h</key>
 		<data>
-		7pDt517I24ftL5myFTjUNfH/FpU=
+		7VJHVbM+cjQNonoWlcrOlL2wmvI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0vYFBrDD8JGM6tNQ8nc2Bsyu0w0=
+		tS99Uf5hyN+gknYi0Vfaj2dhmtg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,11 +38,44 @@
 		</data>
 		<key>voltax-demo.html</key>
 		<data>
-		0Z5oVZPoy2sD67DF3H3oW9hQ0DY=
+		3Gbvw9y/gHMDwQpmwWVbhCBIGkg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lss3pZ+KylxumhqST19cL5OYKUw=
+			</data>
+			<key>hash2</key>
+			<data>
+			SlFdwxbcRRUny1r85YDM5G5Lwwl7WqMKQPJGjo6kg1c=
+			</data>
+		</dict>
+		<key>Headers/MMIMAAd.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cIg3pGrHVmRr8uPyvz+e9ICxEZ8=
+			</data>
+			<key>hash2</key>
+			<data>
+			3ZssOPX05XrScj9wDvYVamG3HzTbUbj33jJGtb+fMws=
+			</data>
+		</dict>
+		<key>Headers/MMIMAAdsProvider.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5X3FnfpGpBZUOtKN3sh4FTnFEh4=
+			</data>
+			<key>hash2</key>
+			<data>
+			czwmvgAxPYa4PqW/pYZRrAlAJ8mkdeBANspUL4pivVk=
+			</data>
+		</dict>
 		<key>Headers/MMSdkManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -46,22 +91,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Us4RsADWPY6ovDIQueq6hoZx/Fg=
+			kfdACMbrYxbmVYuWPnkSjM8qSWM=
 			</data>
 			<key>hash2</key>
 			<data>
-			GHI1Kdoufnpml8yRkFqhbg/8X2qPx/Cx1opz6X3HMOc=
+			0rHqjiL8MKzanyp8p2D6XJDbGMD46lXy1bg9+6z4nn4=
 			</data>
 		</dict>
 		<key>Headers/VoltaxSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7pDt517I24ftL5myFTjUNfH/FpU=
+			7VJHVbM+cjQNonoWlcrOlL2wmvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			cALZqGdVlpP7eEgqVHvn58Tof96qpWdzNj2WgfuoKA0=
+			mjNMIBUWhkfDG+QIilFhwVDgkRvgyBWFNjaINkQeq+Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -79,11 +124,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Z5oVZPoy2sD67DF3H3oW9hQ0DY=
+			3Gbvw9y/gHMDwQpmwWVbhCBIGkg=
 			</data>
 			<key>hash2</key>
 			<data>
-			CaIl+k5fr1Jszs55jvBTsCHgNL1SRvQrkTv972dZtWc=
+			QjilDx+CrmkssAyrN6xeGg4ow6tEWeR8UKHfdtIzvtU=
 			</data>
 		</dict>
 	</dict>

@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <VoltaxSDK/VoltaxSDK.h>
+#import <VoltaxSDK/MMIMAAdsProvider.h>
 
 @protocol MMVideoViewDelegate <NSObject>
 
@@ -14,7 +15,10 @@
 -(void) mmVideoViewHeight:(CGFloat)height;
 
 @optional
--(void) clickOnUrl:(NSURL *)url;
+-(void) clickOnUrl:(NSURL * _Nonnull)url;
+
+@optional
+-(void) onPlayerLoaded;
 
 @end
 
@@ -23,6 +27,8 @@
 @property (nonatomic, assign) NSString * _Nullable articleUrl;
 
 @property (nonatomic, weak) id<MMVideoViewDelegate> _Nullable delegate;
+
+@property (nonatomic, weak) id<MMIMAAdsProvider> _Nullable adsProvider;
 
 - (id _Nonnull )initWithPlayerId:(NSString * _Nonnull)playerId
                    contentId:(NSString * _Nonnull)contentId
@@ -37,5 +43,8 @@
 -(void) viewWillTransition:(id<UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 
 -(void) willDisplay;
+
+-(void) play;
+-(void) pause;
 
 @end

@@ -32,6 +32,8 @@
             }
             script.onload = () => onPlayerScriptLoad(params)
             window.document.body.appendChild(script);
+            
+            window.document.body.insertAdjacentHTML("beforeend","<style>.monti-placeholder-mm-player {margin-top: -16px !important;}</style>")
         }
     
         const onPlayerScriptLoad = params => {
@@ -43,7 +45,13 @@
             }
             
             vplayer.on('ready', () => {
+                postMessageToSDK({ action: "playerLoaded" })
                 postHeight()
+            })
+            
+            vplayer.on('adOpportunity', (params) => {
+                const isMuted = vplayer.getMute()
+                onAdOpportunity(params, isMuted)
             })
         }
     
@@ -53,7 +61,7 @@
                 const html = window.document.documentElement
 
                 const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
-                postMessageToSDK({height})
+                postMessageToSDK({height: height - 16})
             }, 200)
         }
     
@@ -64,22 +72,46 @@
             setTimeout(() => {
                 const body = window.document.body
 
-                const height = document.body.getBoundingClientRect().height + 32
+                const height = document.body.getBoundingClientRect().height
                 postMessageToSDK({height})
             }, timeout)
         }
-    
-        const support16X9AspectRatio = () => {
-            window.document.body.insertAdjacentHTML("beforeend","<style>.monti-placeholder-mm-player {margin-top: -16px !important;}</style>")
+        
+        const getCurrentPlayer = () => {
+            const vplayers = voltax.getAllPlayersOnPage();
+            return vplayers[0];
         }
     
         const pausePlayer = () => {
-            const vplayers = voltax.getAllPlayersOnPage();
-            let vplayer  = vplayers[0];
+            let vplayer = getCurrentPlayer()
             
             if (vplayer) {
                 vplayer.pause()
             }
+        }
+        
+        const playPlayer = () => {
+            let vplayer = getCurrentPlayer()
+            
+            if (vplayer) {
+                vplayer.play()
+            }
+        }
+        
+        const exitFullscreen = () => {
+            let vplayer = getCurrentPlayer()
+            
+            if (vplayer) {
+                vplayer.exitFullscreen()
+            }
+        }
+        
+        const onAdOpportunity = (params, isMuted) => {
+            postMessageToSDK({
+                action: "onAdOpportunity",
+                tag: params.tag,
+                isMuted
+            })
         }
     </script>
    </body>
