@@ -49,6 +49,15 @@
                 postHeight()
             })
             
+            vplayer.on('error', (err) => {
+                postMessageToSDK({
+                    action: "error",
+                    errorCode: err.errorCode,
+                    errorMessage: err.errorMessage,
+                    isFatalError: err.isFatalError
+                })
+            })
+            
             vplayer.on('adOpportunity', (params) => {
                 const isMuted = vplayer.getMute()
                 onAdOpportunity(params, isMuted)

@@ -1,0 +1,380 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+/Applications/Xcode_12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk
+iPhoneOS14.4.sdk
+/Users/runner/Library/Developer/Xcode/DerivedData/VoltaxSDK-auswsguzpdncavekanhljimrtxoo/Build/Intermediates.noindex/ArchiveIntermediates/VoltaxSDK/IntermediateBuildFilesPath/VoltaxSDK.build/Release-iphoneos/VoltaxSDK.build/DerivedSources/VoltaxSDK_vers.c
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources
++[MMSdkManager sharedInstance]
+___30+[MMSdkManager sharedInstance]_block_invoke
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
+-[MMSdkManager testMode]
+-[MMSdkManager setTestMode:]
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+_OBJC_SELECTOR_REFERENCES_
+___block_descriptor_40_e8__e5_v8?0l
+__OBJC_$_CLASS_METHODS_MMSdkManager
+__OBJC_METACLASS_RO_$_MMSdkManager
+__OBJC_$_INSTANCE_METHODS_MMSdkManager
+_OBJC_IVAR_$_MMSdkManager._testMode
+__OBJC_$_INSTANCE_VARIABLES_MMSdkManager
+__OBJC_$_PROP_LIST_MMSdkManager
+__OBJC_CLASS_RO_$_MMSdkManager
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources/VoltaxSDK/MMSdkManager/MMSdkManager.m
+VoltaxSDK/MMSdkManager/MMSdkManager.h
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
+__30+[MMSdkManager sharedInstance]_block_invoke
+VoltaxSDK/MMSdkManager/MMSdkManager.m
+/Applications/Xcode_12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/dispatch/once.h
++[MMAppleAdIdUtil isOptedOut]
++[MMAppleAdIdUtil getAdvertiserId]
++[MMAppleAdIdUtil isDeviceSimulator]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_CLASSLIST_REFERENCES_$_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.23
+__OBJC_$_CLASS_METHODS_MMAppleAdIdUtil
+__OBJC_METACLASS_RO_$_MMAppleAdIdUtil
+__OBJC_CLASS_RO_$_MMAppleAdIdUtil
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources/VoltaxSDK/AppleAdId/MMAppleAdIdUtil.m
+VoltaxSDK/AppleAdId/MMAppleAdIdUtil.m
+-[MMVideoView initWithPlayerId:contentId:articleUrl:]
+-[MMVideoView initWithPlayerId:contentId:]
+-[MMVideoView load:]
+-[MMVideoView configure]
+-[MMVideoView getVideoParamsString]
+-[MMVideoView viewWillTransition:]
+___34-[MMVideoView viewWillTransition:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[MMVideoView willDisplay]
+-[MMVideoView presentSFSafariViewController:]
+___45-[MMVideoView presentSFSafariViewController:]_block_invoke
+-[MMVideoView webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:]
+___89-[MMVideoView webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:]_block_invoke
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[MMVideoView pageIsLoaded]
+-[MMVideoView playerLoaded]
+-[MMVideoView newHeight:]
+-[MMVideoView onPlayerError:code:isFatalError:]
+-[MMVideoView onAdOpportunity:isMuted:]
+-[MMVideoView adsLoaderDidRecieveError:]
+-[MMVideoView adsManagerDidRecieveError:]
+-[MMVideoView adsManagerDidRequestContentPause]
+-[MMVideoView adsManagerDidRequestContentResume]
+-[MMVideoView adsManagerDidRecieveEvent:ad:]
+-[MMVideoView handleSoundView:]
+-[MMVideoView soundButtonTapped:]
+-[MMVideoView updateSoundImageView:]
+-[MMVideoView playPlayer]
+-[MMVideoView pausePlayer]
+-[MMVideoView play]
+-[MMVideoView pause]
+-[MMVideoView articleUrl]
+-[MMVideoView setArticleUrl:]
+-[MMVideoView delegate]
+-[MMVideoView setDelegate:]
+-[MMVideoView adsProvider]
+-[MMVideoView setAdsProvider:]
+-[MMVideoView webView]
+-[MMVideoView setWebView:]
+-[MMVideoView containerView]
+-[MMVideoView setContainerView:]
+-[MMVideoView playerId]
+-[MMVideoView setPlayerId:]
+-[MMVideoView contentId]
+-[MMVideoView setContentId:]
+-[MMVideoView adIsCurrentlyOnScreen]
+-[MMVideoView setAdIsCurrentlyOnScreen:]
+-[MMVideoView adPlayerIsMuted]
+-[MMVideoView setAdPlayerIsMuted:]
+-[MMVideoView .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_CLASSLIST_REFERENCES_$_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_CLASSLIST_REFERENCES_$_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.108
+___block_descriptor_40_e8_32s_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_CLASSLIST_REFERENCES_$_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.135
+___block_descriptor_48_e8_32s40s_e20_v24?08"NSError"16l
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_CLASSLIST_REFERENCES_$_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_CLASSLIST_REFERENCES_$_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_CLASSLIST_REFERENCES_$_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_CLASSLIST_REFERENCES_$_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_CLASSLIST_REFERENCES_$_.225
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.237
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_WKUIDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKUIDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_WKUIDelegate
+__OBJC_PROTOCOL_$_WKUIDelegate
+__OBJC_LABEL_PROTOCOL_$_WKUIDelegate
+__OBJC_$_PROTOCOL_REFS_WKNavigationDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKNavigationDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_WKNavigationDelegate
+__OBJC_PROTOCOL_$_WKNavigationDelegate
+__OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+__OBJC_$_PROTOCOL_REFS_MMScriptMessageHandlerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_MMScriptMessageHandlerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_MMScriptMessageHandlerDelegate
+__OBJC_PROTOCOL_$_MMScriptMessageHandlerDelegate
+__OBJC_LABEL_PROTOCOL_$_MMScriptMessageHandlerDelegate
+__OBJC_$_PROTOCOL_REFS_MMIMAAdsProviderDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_MMIMAAdsProviderDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_MMIMAAdsProviderDelegate
+__OBJC_PROTOCOL_$_MMIMAAdsProviderDelegate
+__OBJC_LABEL_PROTOCOL_$_MMIMAAdsProviderDelegate
+__OBJC_CLASS_PROTOCOLS_$_MMVideoView
+__OBJC_METACLASS_RO_$_MMVideoView
+__OBJC_$_INSTANCE_METHODS_MMVideoView
+_OBJC_IVAR_$_MMVideoView._adIsCurrentlyOnScreen
+_OBJC_IVAR_$_MMVideoView._adPlayerIsMuted
+_OBJC_IVAR_$_MMVideoView._articleUrl
+_OBJC_IVAR_$_MMVideoView._delegate
+_OBJC_IVAR_$_MMVideoView._adsProvider
+_OBJC_IVAR_$_MMVideoView._webView
+_OBJC_IVAR_$_MMVideoView._containerView
+_OBJC_IVAR_$_MMVideoView._playerId
+_OBJC_IVAR_$_MMVideoView._contentId
+__OBJC_$_INSTANCE_VARIABLES_MMVideoView
+__OBJC_$_PROP_LIST_MMVideoView
+__OBJC_CLASS_RO_$_MMVideoView
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources/VoltaxSDK/MMVideoView/MMVideoView.m
+VoltaxSDK/MMVideoView/MMVideoView.m
+VoltaxSDK/MMVideoView/MMVideoView.h
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
+__89-[MMVideoView webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:]_block_invoke
+__45-[MMVideoView presentSFSafariViewController:]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__34-[MMVideoView viewWillTransition:]_block_invoke
+-[MMVideoViewError initWithMessage:code:isFatelError:]
+-[MMVideoViewError message]
+-[MMVideoViewError setMessage:]
+-[MMVideoViewError code]
+-[MMVideoViewError setCode:]
+-[MMVideoViewError isFatalError]
+-[MMVideoViewError setIsFatalError:]
+__OBJC_METACLASS_RO_$_MMVideoViewError
+__OBJC_$_INSTANCE_METHODS_MMVideoViewError
+_OBJC_IVAR_$_MMVideoViewError._isFatalError
+_OBJC_IVAR_$_MMVideoViewError._message
+_OBJC_IVAR_$_MMVideoViewError._code
+__OBJC_$_INSTANCE_VARIABLES_MMVideoViewError
+__OBJC_$_PROP_LIST_MMVideoViewError
+__OBJC_CLASS_RO_$_MMVideoViewError
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources/VoltaxSDK/MMVideoView/MMVideoViewError.m
+VoltaxSDK/MMVideoView/MMVideoViewError.h
+VoltaxSDK/MMVideoView/MMVideoViewError.m
++[MMUtils getAppName]
++[MMUtils getAppBundleIdentifier]
++[MMUtils getParamsForWebView]
++[MMUtils addConstraintsToFillParent:]
+-[MMUtils userDefaults]
+-[MMUtils setUserDefaults:]
+-[MMUtils .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_IVAR_$_MMUtils._userDefaults
+__OBJC_$_CLASS_METHODS_MMUtils
+__OBJC_METACLASS_RO_$_MMUtils
+__OBJC_$_INSTANCE_METHODS_MMUtils
+__OBJC_$_INSTANCE_VARIABLES_MMUtils
+__OBJC_$_PROP_LIST_MMUtils
+__OBJC_CLASS_RO_$_MMUtils
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources/VoltaxSDK/MMUtils/MMUtils.m
+VoltaxSDK/MMUtils/MMUtils.m
+VoltaxSDK/MMUtils/MMUtils.h
++[GDPRUtils sharedInstance]
+___27+[GDPRUtils sharedInstance]_block_invoke
+-[GDPRUtils gdprV2ConsentString]
+-[GDPRUtils ccpaPrivacyString]
+-[GDPRUtils userDefaults]
+-[GDPRUtils setUserDefaults:]
+-[GDPRUtils .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.10
+__OBJC_$_CLASS_METHODS_GDPRUtils
+__OBJC_METACLASS_RO_$_GDPRUtils
+__OBJC_$_INSTANCE_METHODS_GDPRUtils
+_OBJC_IVAR_$_GDPRUtils._userDefaults
+__OBJC_$_INSTANCE_VARIABLES_GDPRUtils
+__OBJC_$_PROP_LIST_GDPRUtils
+__OBJC_CLASS_RO_$_GDPRUtils
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources/VoltaxSDK/GDPR/GDPRUtils.m
+VoltaxSDK/GDPR/GDPRUtils.m
+VoltaxSDK/GDPR/GDPRUtils.h
+__27+[GDPRUtils sharedInstance]_block_invoke
+-[MMIMAAd initWithCurrentPosition:]
+-[MMIMAAd initWithCurrentPosition:duration:adPosition:contentType:]
+-[MMIMAAd currentPosition]
+-[MMIMAAd setCurrentPosition:]
+-[MMIMAAd duration]
+-[MMIMAAd setDuration:]
+-[MMIMAAd adPosition]
+-[MMIMAAd setAdPosition:]
+-[MMIMAAd contentType]
+-[MMIMAAd setContentType:]
+__OBJC_METACLASS_RO_$_MMIMAAd
+__OBJC_$_INSTANCE_METHODS_MMIMAAd
+_OBJC_IVAR_$_MMIMAAd._adPosition
+_OBJC_IVAR_$_MMIMAAd._currentPosition
+_OBJC_IVAR_$_MMIMAAd._duration
+_OBJC_IVAR_$_MMIMAAd._contentType
+__OBJC_$_INSTANCE_VARIABLES_MMIMAAd
+__OBJC_$_PROP_LIST_MMIMAAd
+__OBJC_CLASS_RO_$_MMIMAAd
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources/VoltaxSDK/MMIMAAdsProvider/MMIMAAd.m
+VoltaxSDK/MMIMAAdsProvider/MMIMAAd.h
+VoltaxSDK/MMIMAAdsProvider/MMIMAAd.m
+-[MMScriptMessageHandler userContentController:didReceiveScriptMessage:]
+-[MMScriptMessageHandler delegate]
+-[MMScriptMessageHandler setDelegate:]
+-[MMScriptMessageHandler .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+__OBJC_$_PROTOCOL_REFS_WKScriptMessageHandler
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_WKScriptMessageHandler
+__OBJC_$_PROTOCOL_METHOD_TYPES_WKScriptMessageHandler
+__OBJC_PROTOCOL_$_WKScriptMessageHandler
+__OBJC_LABEL_PROTOCOL_$_WKScriptMessageHandler
+__OBJC_CLASS_PROTOCOLS_$_MMScriptMessageHandler
+__OBJC_METACLASS_RO_$_MMScriptMessageHandler
+__OBJC_$_INSTANCE_METHODS_MMScriptMessageHandler
+_OBJC_IVAR_$_MMScriptMessageHandler._delegate
+__OBJC_$_INSTANCE_VARIABLES_MMScriptMessageHandler
+__OBJC_$_PROP_LIST_MMScriptMessageHandler
+__OBJC_CLASS_RO_$_MMScriptMessageHandler
+/Users/runner/work/voltax-ios-sdk/voltax-ios-sdk/SDK-sources/VoltaxSDK/MMVideoView/MMScriptMessageHandler.m
+VoltaxSDK/MMVideoView/MMScriptMessageHandler.m
+VoltaxSDK/MMVideoView/MMScriptMessageHandler.h

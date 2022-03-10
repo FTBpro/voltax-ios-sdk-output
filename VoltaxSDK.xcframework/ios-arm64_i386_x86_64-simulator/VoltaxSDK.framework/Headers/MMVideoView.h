@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <VoltaxSDK/VoltaxSDK.h>
 #import <VoltaxSDK/MMIMAAdsProvider.h>
+#import <VoltaxSDK/MMVideoViewError.h>
 
 @protocol MMVideoViewDelegate <NSObject>
 
@@ -19,6 +20,9 @@
 
 @optional
 -(void) onPlayerLoaded;
+
+@optional
+-(void) onPlayerError:(MMVideoViewError * _Nonnull)error;
 
 @end
 

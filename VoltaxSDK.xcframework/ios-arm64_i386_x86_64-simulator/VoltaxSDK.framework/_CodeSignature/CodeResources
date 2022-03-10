@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Lss3pZ+KylxumhqST19cL5OYKUw=
+		R/oP2vBbZ++r5BdhSfMVcyGU+rM=
 		</data>
 		<key>Headers/MMIMAAd.h</key>
 		<data>
@@ -22,15 +22,19 @@
 		</data>
 		<key>Headers/MMVideoView.h</key>
 		<data>
-		kfdACMbrYxbmVYuWPnkSjM8qSWM=
+		O3fVcbMioM5Uyykm6OUmOW5MamM=
+		</data>
+		<key>Headers/MMVideoViewError.h</key>
+		<data>
+		ZZ9qd4t2btjtrmqGAt3Lxx9d3kE=
 		</data>
 		<key>Headers/VoltaxSDK.h</key>
 		<data>
-		7VJHVbM+cjQNonoWlcrOlL2wmvI=
+		2zbkGQGiIRE+AbD96jV8uTRkV50=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tS99Uf5hyN+gknYi0Vfaj2dhmtg=
+		TJYpIV+3+4kAfb4L1h5Mv3fzsKA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>voltax-demo.html</key>
 		<data>
-		3Gbvw9y/gHMDwQpmwWVbhCBIGkg=
+		v0V+iBzUrvSVHHxv81ws/Gc2aH8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Lss3pZ+KylxumhqST19cL5OYKUw=
+			R/oP2vBbZ++r5BdhSfMVcyGU+rM=
 			</data>
 			<key>hash2</key>
 			<data>
-			SlFdwxbcRRUny1r85YDM5G5Lwwl7WqMKQPJGjo6kg1c=
+			AHfSN4/mAOjgqtx1tPkz3bPcvpOCeBcvhBQ9wck1gLo=
 			</data>
 		</dict>
 		<key>Headers/MMIMAAd.h</key>
@@ -91,22 +95,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kfdACMbrYxbmVYuWPnkSjM8qSWM=
+			O3fVcbMioM5Uyykm6OUmOW5MamM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0rHqjiL8MKzanyp8p2D6XJDbGMD46lXy1bg9+6z4nn4=
+			wzXjoFQoYM8jocGbqqG/ZyNb4IXZwrqxlpyDMs662gI=
+			</data>
+		</dict>
+		<key>Headers/MMVideoViewError.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZZ9qd4t2btjtrmqGAt3Lxx9d3kE=
+			</data>
+			<key>hash2</key>
+			<data>
+			8dkuotG8D3FaFA+9Lk3pCfUlPaTZ5eZ4aJjV3wVxS5U=
 			</data>
 		</dict>
 		<key>Headers/VoltaxSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7VJHVbM+cjQNonoWlcrOlL2wmvI=
+			2zbkGQGiIRE+AbD96jV8uTRkV50=
 			</data>
 			<key>hash2</key>
 			<data>
-			mjNMIBUWhkfDG+QIilFhwVDgkRvgyBWFNjaINkQeq+Y=
+			4lCr6cWKzneQa+ZO/Dg0OyJS5PARSVSO0rVeYj/7Y3M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -124,11 +139,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3Gbvw9y/gHMDwQpmwWVbhCBIGkg=
+			v0V+iBzUrvSVHHxv81ws/Gc2aH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			QjilDx+CrmkssAyrN6xeGg4ow6tEWeR8UKHfdtIzvtU=
+			DFJR96iVZjwq+wjy3Ksql7iNj+WHWQYNfDfUWyUvn6E=
 			</data>
 		</dict>
 	</dict>
