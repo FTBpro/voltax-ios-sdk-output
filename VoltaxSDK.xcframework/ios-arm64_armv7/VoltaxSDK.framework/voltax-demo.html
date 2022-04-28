@@ -107,6 +107,16 @@
             }
         }
         
+        const getPosition = () => {
+            let vplayer = getCurrentPlayer()
+            
+            if (vplayer) {
+                return vplayer.getPosition()
+            } else {
+                return null
+            }
+        }
+        
         const exitFullscreen = () => {
             let vplayer = getCurrentPlayer()
             
@@ -121,6 +131,16 @@
                 tag: params.tag,
                 isMuted
             })
+        }
+        
+        const onNativeAdEvent = (event, tag, adData) => {
+            let vplayer = getCurrentPlayer()
+            
+            if (vplayer) {
+                console.log("[Ad Event]:", event, tag, adData)
+                
+                vplayer.onNativeAdEvent(event, tag, adData)
+            }
         }
     </script>
    </body>

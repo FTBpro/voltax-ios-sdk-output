@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		R/oP2vBbZ++r5BdhSfMVcyGU+rM=
+		yz71Kc22jxe+I1iCgGR/vTldRrg=
 		</data>
 		<key>Headers/MMIMAAd.h</key>
 		<data>
-		cIg3pGrHVmRr8uPyvz+e9ICxEZ8=
+		lD+cuZPxK8juD916wC81oGZzFeU=
 		</data>
 		<key>Headers/MMIMAAdsProvider.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/MMVideoView.h</key>
 		<data>
-		O3fVcbMioM5Uyykm6OUmOW5MamM=
+		gkZY2adh0FPTIweRfq3kmIi6ccU=
 		</data>
 		<key>Headers/MMVideoViewError.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TJYpIV+3+4kAfb4L1h5Mv3fzsKA=
+		oEEibfaGdrTAFvOO04od0XL6Qjo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>voltax-demo.html</key>
 		<data>
-		v0V+iBzUrvSVHHxv81ws/Gc2aH8=
+		D7IX4JYW1JeRuTMrjp2ABwhk5M0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,22 +51,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R/oP2vBbZ++r5BdhSfMVcyGU+rM=
+			yz71Kc22jxe+I1iCgGR/vTldRrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			AHfSN4/mAOjgqtx1tPkz3bPcvpOCeBcvhBQ9wck1gLo=
+			a77ilyiafjeFlQTmwCDoo6XV3t6BkGUvgULhBbHhUtk=
 			</data>
 		</dict>
 		<key>Headers/MMIMAAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cIg3pGrHVmRr8uPyvz+e9ICxEZ8=
+			lD+cuZPxK8juD916wC81oGZzFeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			3ZssOPX05XrScj9wDvYVamG3HzTbUbj33jJGtb+fMws=
+			eqK2HHk2DB5vtJajAVNxoki7Pllfg5Z+7wJ5vsVq+ks=
 			</data>
 		</dict>
 		<key>Headers/MMIMAAdsProvider.h</key>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O3fVcbMioM5Uyykm6OUmOW5MamM=
+			gkZY2adh0FPTIweRfq3kmIi6ccU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wzXjoFQoYM8jocGbqqG/ZyNb4IXZwrqxlpyDMs662gI=
+			Bh7V91dqvWaDAdFium1hGwXwlVLkFc+DUpgueFupkTk=
 			</data>
 		</dict>
 		<key>Headers/MMVideoViewError.h</key>
@@ -139,11 +139,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v0V+iBzUrvSVHHxv81ws/Gc2aH8=
+			D7IX4JYW1JeRuTMrjp2ABwhk5M0=
 			</data>
 			<key>hash2</key>
 			<data>
-			DFJR96iVZjwq+wjy3Ksql7iNj+WHWQYNfDfUWyUvn6E=
+			00fTA/i6xrRA8laM4PxcDMconOPswlJ4njaLlnZxW0I=
 			</data>
 		</dict>
 	</dict>

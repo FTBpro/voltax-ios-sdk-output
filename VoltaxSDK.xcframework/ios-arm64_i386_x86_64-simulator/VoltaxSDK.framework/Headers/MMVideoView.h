@@ -36,7 +36,7 @@
 
 - (id _Nonnull )initWithPlayerId:(NSString * _Nonnull)playerId
                    contentId:(NSString * _Nonnull)contentId
-                      articleUrl:(NSString * _Nonnull)articleUrl;
+                      articleUrl:(NSString * _Nullable)articleUrl;
 
 - (id _Nonnull )initWithPlayerId:(NSString * _Nonnull)playerId
                        contentId:(NSString * _Nonnull)contentId;

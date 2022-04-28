@@ -16,6 +16,4 @@
 
 - (id _Nonnull) initWithCurrentPosition:(double)currentPosition duration:(double )duration adPosition:(int)adPosition contentType:(NSString * _Nonnull)contentType;
 
-//- (id _Nonnull) initWithCurrentPosition:(double)currentPosition;
-
 @end
